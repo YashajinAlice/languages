@@ -107,7 +107,7 @@ label:
   auditLog: "審計日誌"
   welcomeChannel: "歡迎頻道"
   autoRole: "自動角色"
-  temporalVoice: "臨時語音"
+  temporalVoice: "新語音創建"
   statistics: "統計"
   ticketSystem: "票務系統"
   suggestionMenu: "建議選單"
