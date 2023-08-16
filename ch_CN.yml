@@ -7,25 +7,26 @@ logging:
   banned: ":airplane_departure: %s **被封禁。**"
   unbanned: ":airplane_arriving: %s **解封。**"
   joined:
-    default: "%s **加入了伺服器。**\n:timer: 帳戶年齡:\n**%s**\n**%s**"
+    default: "%s **加入了服务器。**\n:timer: 帐户年龄:\n**%s**\n**%s**"
     bot:
-      found: "**機器人** %s **已被** %s **邀請。**"
-      notFound: "**無法確定是誰邀請了機器人** %s"
-    leave: "%s **加入並離開了伺服器。**"
+      found: "**机器人** %s **已被** %s **邀请。**"
+      notFound: "**无法确定是谁邀请了机器人** %s"
+    leave: "%s **加入并离开了伺服器。**"
     invite:
-      vanity: "%s **通過自訂邀請連結被邀請。**"
-      default: "%s **被** %s **邀請（代碼: %s, 使用次數: %s）**"
-      notFound: "**無法確定是誰邀請了** %s"
+      vanity: "%s **透过自订邀请链接邀请了。**"
+      default: "%s **被** %s **邀请（代码: %s, 使用次数: %s）**"
+      notFound: "**无法确定是谁邀请了** %s"
   left:
-    default: "%s **離開了伺服器。**\n:timer: 加入時間:\n**%s**"
-    slim: "%s **離開了伺服器。**"
+    default: "%s **离开了伺服器。**\n:timer: 加入时间:\n**%s**"
+    slim: "%s **离开了伺服器。**"
   timeout:
-    started: "**使用者** %s **被暫停。**\n**時間:** %s"
-    updated: "**使用者** %s **被暫停。**\n**原因:** %s\n**管理員:** %s\n**時間:** %s"
-    ended: "**使用者** %s **結束了暫停。**\n**時間:** %s"
+    started: "**用户** %s **被暂停。**\n**时间:** %s"
+    updated: "**用户** %s **被暫停。**\n**原因:** %s\n**管理员:** %s\n**时间:** %s"
+    ended: "**用户** %s **结束了暂停。**\n**时间:** %s"
   nickname:
-    reset: "%s 的暱稱已重置。\n**舊暱稱:**\n%s"
-    changed: "%s 的暱稱已更改。\n**新暱稱:**\n%s\n**舊暱稱:**\n%s"
+    reset: "%s 的昵称修改已重置。\n**旧昵称:**\n%s"
+    changed: "%s 的昵称已修改。\n**新昵称:**\n%s\n**旧昵称:**\n%s"
+    -----------------------------进度
   voicechannel:
     join: "%s **加入了語音頻道** %s"
     move: "%s **從語音頻道** %s **移動到** %s**。**"
