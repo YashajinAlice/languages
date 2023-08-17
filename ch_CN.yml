@@ -223,66 +223,65 @@ message:
   time:
     date: "请使用有效的日期！\n请注意我们使用 dd.MM.yyyy(日.月.年）的格式！"
     time: "请使用有效的日期！\n请注意我们使用 HH/mm(小时/分钟(24小时制))的格式！"
-    ---------------------------进度
-    notEnough: "輸入的時間不夠！"
-  incorrectNumbers: "請輸入正確的數值"
+    notEnough: "输入的时间不够！"
+  incorrectNumbers: "请输入正确的时间"
   birthday:
     added:
-      self: "你的生日已添加!"
+      self: "您的生日已添加!"
       other: "%s的生日已添加"
-      noPerms: "你沒有權限添加生日!"
+      noPerms: "您没有权限添加生日!"
     removed:
-      self: "你的生日已刪除!"
-      other: "%s的生日已刪除!"
-      noPerms: "你沒有權限刪除生日!"
-    wish: "祝<@%s>生日快樂!"
+      self: "您的生日已删除!"
+      other: "%s的生日已删除!"
+      noPerms: "您没有权限删除生日!"
+    wish: "祝<@%s>生日快乐!"
   instagramNotifier:
-    added: "已為用戶%s創建了IG通知!"
-    list: "以下是所有已設置的IG通知:\n```%s```"
-    removed: "已從用戶%s刪除了IG通知!"
+    added: "已为用户%s创建了IG通知!"
+    list: "以下是所有已设置的IG通知:\n```%s```"
+    removed: "已从用户%s删除了IG通知!"
   redditNotifier:
-    added: "已為 Subreddit %s 創建 Reddit 通知程序!"
-    list: "以下是已設置的所有 Reddit 通知程序：\n````%s```"
-    removed: "Reddit 通知程序已從 Subreddit %s 中刪除！"
+    added: "已为 Subreddit %s 创建了 Reddit 通知!"
+    list: "以下是所有已设置的 Reddit 通知：\n````%s```"
+    removed: "Reddit 通知程序已从频道 %s 中刪除！"
   twitchNotifier:
-    added: "已為頻道 %s 創建 Twitch-Stream 通知程序！"
-    list: "以下是已設置的所有 Twitch 通知程序：\n````%s```"
+    added: "已为 %s 创建 Twitch-Stream 通知！"
+    list: "以下是所有已设置的 Twitch 通知：\n````%s```"
     removed: "Twitch-Stream 通知程序已從頻道 %s 中刪除！"
   twitterNotifier:
-    added: "已為用戶 %s 創建 Twitter 通知程序！"
-    list: "以下是已設置的所有 Twitter 通知程序：\n````%s```"
-    removed: "Twitter 通知程序已從用戶 %s 中刪除！"
+    added: "已为用户 %s 创建 Twitter 通知！"
+    list: "以下是所有已设置的 Twitter 通知：\n````%s```"
+    removed: "Twitter 通知已从用户 %s 中刪除！"
   youtubeNotifier:
-    added: "已為頻道 %s 創建 Youtube 視頻通知程序！"
-    list: "以下是已設置的所有 YouTube 通知程序：\n````%s```"
-    removed: "Youtube 視頻通知程序已從頻道 %s 中刪除！"
+    added: "已为频道 %s 创建 Youtube 视频通知！"
+    list: "以下是所有已设置的 YouTube 通知：\n````%s```"
+    removed: "Youtube 通知程序已從頻道 %s 中刪除！"
   tiktokNotifier:
-    added: "已為用戶 %s 創建 TikTok 通知程序！"
-    list: "以下是已設置的所有 TikTok 通知程序：\n````%s```"
+    added: "已为用户 %s 创建 TikTok 通知！"
+    list: "以下是所有已设置的 TikTok 通知：\n````%s```"
     removed: "TikTok 通知程序已從用戶 %s 中刪除！"
-    invalidUser: "我們找不到提供的 TikTok 用戶！"
+    invalidUser: "我们找不到提供的 TikTok 用户！"
   rssNotifier:
-    added: "已為 URL %s 創建 RSS-Feed 通知程序！"
-    list: "以下是已設置的所有 RSS-Feed 通知程序：\n````%s```"
-    removed: "RSS 源通知程序已從 URL %s 中刪除！"
+    added: "已为 URL %s 创建 RSS-Feed 通知！"
+    list: "以下是已設置的所有 RSS-Feed 通知：\n````%s```"
+    removed: "RSS 源通知程序已从 URL %s 中刪除！"
   anime:
-    searching: "搜索動漫..."
-    found: "發現動漫!"
-    error: "搜索動漫時發生錯誤!"
+    searching: "搜索动漫..."
+    found: "发现动漫!"
+    error: "搜索动漫时发生错误!"
   game:
     actionNeeded: "指定一个动作!"
-    valueNeeded: "你需要指定一個數值!"
-    invalidAction: "請提供有效的操作!"
-    invalidInvite: "請提供有效的邀請鏈接!"
-    gameAlreadyStarted: "遊戲已經開始了!"
-    availableGames: "可用遊戲:"
-  hornyJail: "%s 現在被送入了監獄!"
-  hug: "%s 被 %s 擁抱了!"
-  kiss: "%s 被 %s 親了!"
+    valueNeeded: "您需要指定一个值!"
+    invalidAction: "请提供有效的操作!"
+    invalidInvite: "请提供有效的邀请链接!"
+    gameAlreadyStarted: "游戏已经开始了!"
+    availableGames: "可用游戏:"
+  hornyJail: "%s 现在被送入监狱!"
+  hug: "%s 被 %s 拥抱了!"
+  kiss: "%s 被 %s 亲了!"
   manga:
-    searching: "正在搜索漫畫..."
-    found: "找到了漫畫!"
-    error: "搜索漫畫時發生錯誤!"
+    searching: "正在搜索漫画..."
+    found: "找到了漫画!"
+    error: "搜索漫画时发生错误!"
   ping: "Pong"
   record:
     recordingStarted: "我现在正在录制语音频道！"
@@ -291,24 +290,24 @@ message:
   slap: "%s 被 %s 扇了一巴掌!"
   addon:
     list: "插件列表:"
-    reloadAll: "正在重新加載插件 ...."
-    reloadedAll: "已重新加載所有插件!"
+    reloadAll: "正在重新加载所有插件 ...."
+    reloadedAll: "已重新加载所有插件!"
   credits:
-    default: "認識我們的團隊!"
-    easterEgg: "認識間諜!"
+    default: "认识我们团队!"
+    easterEgg: "认识间谍!"
   optout:
-    optedOut: "你已選擇退出數據收集!"
-    optedIn: "你已選擇加入數據收集!"
+    optedOut: "您已退出数据搜集!"
+    optedIn: "您已选择加入数据搜集!"
   leaderboards: "在此消息下方您可以找到當前服務器的排行榜!\n請注意，您必須登錄才能查看這些統計數據，原因是Discord準則！!"
   ban:
     success: "Successfully banned %s!"
-    leaderboards: "在此消息下方，你可以找到当前服务器的排行榜！\n请注意，你必须登录才能看到这些统计数据，這是因為 Discord 的準則！"
+    leaderboards: "在此信息下方，你可以找到当前服务器的排行榜！\n请注意，你必须登录才能看到这些统计数据，这是因为 Discord 的规定！"
   ban:
     success: "成功封禁 %s!"
-    hierarchySelfError: "你不能封禁比你角色高或相同的人！"
-    hierarchyBotError: "我不能封禁比我角色高或相同的人！"
+    hierarchySelfError: "您不能封禁身份比您高的成员！"
+    hierarchyBotError: "我不能封禁身份比我高或跟我一样的成员！"
   blacklist:
-    addedList: "以下词语已添加到黑名单："
+    addedList: "以下词语已添加至黑名单："
     added: "词语 `%s` 已添加到黑名单！"
     removed: "词语 `%s` 已从黑名单中移除！"
     setupNeeded: "你需要先设置黑名单！"
@@ -335,8 +334,8 @@ message:
   mute:
     invalidTime: "请提供有效的时间！"
     success: "成功将 %s 禁言 %ss！"
-    hierarchySelfError: "你不能禁言高于或等于你角色的人！"
-    hierarchyBotError: "我不能禁言高于或等于我角色的人！"
+    hierarchySelfError: "你不能禁言高于或等于你身份的人！"
+    hierarchyBotError: "我不能禁言高于或等于我身份的人！"
   prefix:
     success: "成功将前缀更改为 `%s` !"
   setup:
@@ -346,7 +345,7 @@ message:
     steps:
       auditLog: "你可以设置我们自己的审计日志，提供所有信息和 webhook 到你想要的频道！但我们的不同于默认的审计日志，我们允许你设置您想要记录的内容和不想记录的内容！我们还允许你记录语音事件！"
       welcome: "你可以设置我们自己的欢迎消息！你可以自己选择欢迎频道，甚至配置消息！"
-      autoRole: "你可以设置我们自己的自动角色系统！你可以选择用户加入服务器时应该获得的角色！"
+      autoRole: "你可以设置我们自己的自动身份系统！你可以选择用户加入服务器时应该获得的角色！"
       temporalVoice: "你可以设置自己的临时语音频道！通过在特定频道上设置临时语音频道，每当有人加入时将会创建一个新的语音频道！"
       lang: "你可以更改机器人的语言设置！"
   suggestion:
@@ -358,7 +357,8 @@ message:
     notSetup: "看起来建议系统没有正确设置！"
   unban:
     success: "成功解封 %s!"
-    notFound: "找不到該用戶 `%s` !"
+    notFound: "找不到該用户 `%s` !"
+    ----------------------------进度
   unmute:
     success: "成功解除 %s 的禁言!"
     hierarchySelfError: "你不能解除擁有比你高或相同身份組的人的禁言!"
