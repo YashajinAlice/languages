@@ -492,9 +492,9 @@ message:
     roleAssign: "您已將角色 %s 分配給反應!"
     reactionNeeded: "您需要按照您想要指定的反應對此消息做出反應 %s to!"
     roleNotFound: "找不到您要分配給反應的角色!"
-    removed: "Successfully removed the Reaction-Role for the Role %s!"
-    roleAdded: "You have received the Role %s!"
-    roleRemoved: "You have lost the Role %s!"
+    removed: "已成功刪除角色 %s 的反應角色!"
+    roleAdded: "您已收到角色 %s!"
+    roleRemoved: "您已失去角色 %s!"
   musicQuiz:
     welcome: "Welcome to Music Quiz! You can start the game by clicking the button below!\nBefore you can start it thou, you will need someone else to play with you!\nThey will need to use /game join %s to join the game!\nOr press the button below!"
     foundTitle: "You have guessed the Title it was %s! You receive 1pts"
