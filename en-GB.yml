@@ -251,7 +251,7 @@ message:
   twitterNotifier:
     added: "已為用戶 %s 創建 Twitter 通知程序!"
     list: "以下是已設置的所有 Twitter 通知程序：\n````%s```"
-    removed: "A Twitter Notifier has been removed from the User %s!"
+    removed: "Twitter 通知程序已從用戶 %s 中刪除！"
   youtubeNotifier:
     added: "A Youtube-Video Notifier has been created for the Channel %s!"
     list: "Here are all YouTube Notifier that have been setup:\n```%s```"
