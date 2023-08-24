@@ -218,7 +218,7 @@ message:
     actionRequired: "選擇一個操作!"
     unknownMenu: "解析模態時錯誤!"
     invalidOption: "您以某種方式選擇了無效的選項!你是巫師嗎?"
-    invalidOptionChannel: "指定的頻道不存在,您是如何選擇它的？你是巫師嗎?"
+    invalidOptionChannel: "指定的頻道不存在,您是如何選擇它的?你是巫師嗎?"
     missingOption: "您需要為該選項提供一個值 %s!"
     nameChangeFailed: "無法更改我自己的暱稱!"
     time:
@@ -592,7 +592,7 @@ command:
     slashNotSupported: "該命令尚不支持斜杠命令!"
     onlySlashSupported: "該命令僅支持斜杠命令!"
   description:
-    pickupline: "你需要一句撩人的話嗎？我們幫你準備好了"
+    pickupline: "你需要一句撩人的話嗎?我們幫你準備好了"
     birthday: "讓機器人記住您的生日"
     instagramNotifier: "管理您的 Instagram 通知程序!"
     redditNotifier: "管理 你的 Reddit 通知程序!"
