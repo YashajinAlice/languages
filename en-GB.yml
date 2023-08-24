@@ -233,24 +233,24 @@ message:
       noPerms: "您無權添加生日!"
     removed:
       self: "您的生日已被刪除!"
-      other: "The Birthday of %s has been removed!"
-      noPerms: "You don't have the permission to remove a Birthday!"
-    wish: "Happy birthday to <@%s>!"
+      other: "%s 的生日已被刪除!"
+      noPerms: "您無權刪除生日!"
+    wish: "祝 <@%s> 生日快樂!"
   instagramNotifier:
-    added: "A Instagram Notifier has been created for the User %s!"
-    list: "Here are all Instagram Notifier that have been setup:\n```%s```"
-    removed: "A Instagram Notifier has been removed from the User %s!"
+    added: "已為用戶創建 Instagram 通知程序 %s!"
+    list: "以下是已設置的所有 Instagram 通知程序：\n````%s```"
+    removed: "Instagram 通知程序已從用戶 %s 中刪除!"
   redditNotifier:
-    added: "A Reddit Notifier has been created for the Subreddit %s!"
-    list: "Here are all Reddit Notifier that have been setup:\n```%s```"
-    removed: "A Reddit Notifier has been removed from the Subreddit %s!"
+    added: "已為 Subreddit 創建了 Reddit 通知程序 %s!"
+    list: "以下是已設置的所有 Reddit 通知程序：\n````%s```"
+    removed: "Reddit 通知程序已從 Subreddit %s 中刪除!"
   twitchNotifier:
-    added: "A Twitch-Stream Notifier has been created for the Channel %s!"
-    list: "Here are all Twitch Notifier that have been setup:\n```%s```"
-    removed: "A Twitch-Stream Notifier has been removed from the Channel %s!"
+    added: "已為頻道 %s 創建 Twitch-Stream 通知程序!"
+    list: "以下是已設置的所有 Twitch 通知程序：\n````%s```"
+    removed: "Twitch-Stream 通知程序已從頻道 %s 中刪除!"
   twitterNotifier:
-    added: "A Twitter Notifier has been created for the User %s!"
-    list: "Here are all Twitter Notifier that have been setup:\n```%s```"
+    added: "已為用戶 %s 創建 Twitter 通知程序!"
+    list: "以下是已設置的所有 Twitter 通知程序：\n````%s```"
     removed: "A Twitter Notifier has been removed from the User %s!"
   youtubeNotifier:
     added: "A Youtube-Video Notifier has been created for the Channel %s!"
