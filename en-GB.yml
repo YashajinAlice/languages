@@ -238,32 +238,32 @@ message:
     wish: "祝 <@%s> 生日快樂!"
   instagramNotifier:
     added: "已為用戶創建 Instagram 通知程序 %s!"
-    list: "以下是已設置的所有 Instagram 通知程序：\n````%s```"
+    list: "以下是已設置的所有 Instagram 通知程序:\n````%s```"
     removed: "Instagram 通知程序已從用戶 %s 中刪除!"
   redditNotifier:
     added: "已為 Subreddit 創建了 Reddit 通知程序 %s!"
-    list: "以下是已設置的所有 Reddit 通知程序：\n````%s```"
+    list: "以下是已設置的所有 Reddit 通知程序:\n````%s```"
     removed: "Reddit 通知程序已從 Subreddit %s 中刪除!"
   twitchNotifier:
     added: "已為頻道 %s 創建 Twitch-Stream 通知程序!"
-    list: "以下是已設置的所有 Twitch 通知程序：\n````%s```"
+    list: "以下是已設置的所有 Twitch 通知程序:\n````%s```"
     removed: "Twitch-Stream 通知程序已從頻道 %s 中刪除!"
   twitterNotifier:
     added: "已為用戶 %s 創建 Twitter 通知程序!"
-    list: "以下是已設置的所有 Twitter 通知程序：\n````%s```"
+    list: "以下是已設置的所有 Twitter 通知程序:\n````%s```"
     removed: "Twitter 通知程序已從用戶 %s 中刪除！"
   youtubeNotifier:
     added: "已為頻道 %s 創建 Youtube 視頻通知程序!"
-    list: "以下是已設置的所有 YouTube 通知程序：\n````%s```"
+    list: "以下是已設置的所有 YouTube 通知程序:\n````%s```"
     removed: "Youtube 視頻通知程序已從頻道 %s 中刪除!"
   tiktokNotifier:
     added: "已為用戶 %s 創建 TikTok 通知程序!"
-    list: "以下是已設置的所有 TikTok 通知程序：\n````%s```"
+    list: "以下是已設置的所有 TikTok 通知程序:\n````%s```"
     removed: "TikTok 通知程序已從用戶 %s 中刪除!"
     invalidUser: "我們找不到提供的 TikTok 用戶!"
   rssNotifier:
     added: "已為 URL %s 創建 RSS-Feed 通知程序！"
-    list: "以下是已設置的所有 RSS-Feed 通知程序：\n````%s```"
+    list: "以下是已設置的所有 RSS-Feed 通知程序:\n````%s```"
     removed: "RSS-Feed 通知程序已從 URL %s 中刪除!"
   anime:
     searching: "尋找動漫..."
@@ -305,7 +305,7 @@ message:
     hierarchySelfError: "您不能禁止角色比您更高或同等的人!"
     hierarchyBotError: "我無法禁止角色比我更高或同等的人!"
   blacklist:
-    addedList: "以下詞語已被添加到黑名單中："
+    addedList: "以下詞語已被添加到黑名單中:"
     added: "單詞`%s`已被添加到黑名單中!"
     removed: "單詞`%s`已從黑名單中刪除!"
     setupNeeded: "您需要先設置黑名單!"
@@ -369,15 +369,15 @@ message:
       disabled: "循環已被禁用!"
     lyrics:
       notFound: "找不到歌詞 %s."
-      foundUnlikely: "已找到 %s 的歌詞,,但不太可能正確：%s"
+      foundUnlikely: "已找到 %s 的歌詞,,但不太可能正確:%s"
     stop: "歌曲已被停止！"
     pause: "音樂已暫停!"
     resume: "音樂已恢復!"
     shuffle: "隊列已被洗牌!"
-    songInfo: "**歌曲：**```%s 由 %s```\n%s `[%s/%s]` %s"
+    songInfo: "**歌曲:**```%s 由 %s```\n%s `[%s/%s]` %s"
     songInfoSlim: "%s by %s"
     songQueueEmpty: "隊列為空!"
-    songQueue: "隊列包含以下歌曲：%s"
+    songQueue: "隊列包含以下歌曲:%s"
     volume:
       success: "成功將音量設置為 %s!"
       default: "當前音量為 %s!"
@@ -390,15 +390,15 @@ message:
     seek:
       success: "正在尋找``%s``!"
       failed: "你不能跳到超過歌曲長度的位置!"
-    failedPlaying: "播放時出錯：``%s``\n錯誤:%s"
-    failedLoading: "加載歌曲時出錯：%s"
+    failedPlaying: "播放時出錯:``%s``\n錯誤:%s"
+    failedLoading: "加載歌曲時出錯:%s"
     queueAdded:
       default: "歌曲``%s`` 已添加到隊列中!"
-      firstOfList: "歌曲``%s`` 已添加到隊列中! (播放列表的第一首歌曲：%s)"
+      firstOfList: "歌曲``%s`` 已添加到隊列中! (播放列表的第一首歌曲:%s)"
     skip: "跳到隊列中的下一首歌曲!"
   nsfw:
     searching: "搜索 NSFW 內容 ..."
-    notAllowed: "您搜索的內容不允許！例如：蘿莉、蘿莉控..."
+    notAllowed: "您搜索的內容不允許！例如:蘿莉、蘿莉控..."
   blacklisted: "您的消息包含列入黑名單/阻止的內容!"
   levelUp: "您剛剛升級到%s(%s)! %s"
   gameCore:
@@ -476,7 +476,7 @@ message:
   welcome:
     setupSuccess: "成功設置歡迎頻道!"
     setupDescription: "您想使用哪個頻道作為歡迎頻道?"
-    imageRequired: "使用以下命令並將圖像作為附件：`{guild_prefix}setup joinImage`!"
+    imageRequired: "使用以下命令並將圖像作為附件:`{guild_prefix}setup joinImage`!"
     deleted: `成功刪除歡迎頻道,幹得好!"
   lang:
     setupSuccess: "已成功將語言更改為 %s!"
@@ -533,7 +533,7 @@ message:
   warn:
     punishment:
       created: "您已成功創建懲罰!"
-      list: "以下是該公會的所有懲罰列表：\n````%s```"
+      list: "以下是該公會的所有懲罰列表:\n````%s```"
       listEntry:
         timeout: "%s 秒超時"
         roleAdd: "%s 的角色添加"
@@ -554,7 +554,7 @@ message:
     delete:
       success: "日程已成功刪除!"
       failed: "給定的時間表不存在!"
-    list: "以下是所有計劃的列表：``%s````"
+    list: "以下是所有計劃的列表:``%s````"
   pickupline:
     response: ":speaking_head: %s"
     responseNsfw: ":red_circle: ||%s|| **NSFW**"
@@ -586,7 +586,7 @@ command:
     missingCommand: "請提供命令!"
     error: "執行命令時出錯!"
     errorWithException: "執行命令時出錯！\n異常: %s"
-    internalError: "執行命令時出錯！\n如果這種情況繼續發生,請聯繫我的開發人員！\n開發者：Alice"
+    internalError: "執行命令時出錯！\n如果這種情況繼續發生,請聯繫我的開發人員！\n開發者:Alice"
     notFound: "找不到該命令"
     blocked: "該命令被阻止!"
     slashNotSupported: "該命令尚不支持斜杠命令!"
