@@ -1,8 +1,8 @@
 language:
-  name: "chinese"
-  locale: "zh_TW"
-  version: "3.0.14"
-  author: "alice"
+  name: "English (UK)"
+  locale: "en-GB"
+  version: "3.0.13"
+  author: "Presti"
 logging:
   banned: ":出境: %s **封禁.**"
   unbanned: ":入境: %s **解除封禁.**"
@@ -14,7 +14,7 @@ logging:
     leave: "%s **加入並離開伺服器.**"
     invite:
       vanity: "%s **通過自定義邀請連結加入.**"
-      default: "%s **被** %s **邀請（代碼: %s, 使用次數: %s）.**"
+      default: "%s **被** %s **邀請(代碼: %s, 使用次數: %s)**"
       notFound: "**無法確定是誰邀請了** %s"
   left:
     default: "%s **離開了伺服器.**\n:timer: 加入時間:\n**%s**"
@@ -29,7 +29,7 @@ logging:
   voicechannel:
     join: "%s **加入了語音頻道** %s"
     move: "%s **從語音頻道** %s **移動到** %s**.**"
-    moveMany: "%s **經過多個語音頻道，現在在** %s"
+    moveMany: "%s **經過多個語音頻道,現在在** %s"
     leave: "%s **離開了語音頻道** %s"
     leaveInstant: "%s **加入並離開了語音頻道** %s"
     rejoin: "%s **重新加入了語音頻道** %s"
@@ -50,9 +50,9 @@ logging:
     delete: ":family_mmb: ``%s`` **已刪除.**"
   message:
     deleted: ":wastebasket: **%s 在 %s 的訊息已刪除.**\n%s"
-    tooLong: "訊息太長，無法顯示！"
-    attachmentFailed: "無法添加訊息附件，原因: %s"
-    attachmentNotice: "Below are the attachments, we recommend being careful with these files!"
+    tooLong: "訊息太長,無法顯示！"
+    attachmentFailed: "無法添加訊息附件,原因: %s"
+    attachmentNotice: "以下是附件,我們建議小心對待這些文件!"
 label:
   status: "狀態"
   typ: "類型"
@@ -214,16 +214,16 @@ message:
     image:
       needed: "需要一張圖片!"
       tooBig: "圖像太大了!"
-      tooBigMax: "圖像太大了，建議尺寸: %sMB"
+      tooBigMax: "圖像太大了,建議尺寸: %sMB"
     actionRequired: "選擇一個操作!"
     unknownMenu: "解析模態時錯誤!"
     invalidOption: "您以某種方式選擇了無效的選項！你是巫師嗎?"
-    invalidOptionChannel: "指定的頻道不存在，您是如何選擇它的？你是巫師嗎?"
+    invalidOptionChannel: "指定的頻道不存在,您是如何選擇它的？你是巫師嗎?"
     missingOption: "您需要為該選項提供一個值 %s!"
     nameChangeFailed: "無法更改我自己的暱稱!"
     time:
       date: "請使用有效日期!\n請注意,我們使用格式 dd.MM.yyyy (day.month.year)!"
-      time: "請使用有效時間!\n請注意，我們使用格式 HH/mm (hour/minute (24-hour))!"
+      time: "請使用有效時間!\n請注意,我們使用格式 HH/mm (hour/minute (24-hour))!"
       notEnough: "輸入的時間不夠!"
     incorrectNumbers: "請輸入正確的數值"
   birthday:
@@ -306,10 +306,10 @@ message:
     hierarchyBotError: "我無法禁止角色比我更高或同等的人!"
   blacklist:
     addedList: "以下詞語已被添加到黑名單中："
-    added: "單詞“%s”已被添加到黑名單中!"
-    removed: "單詞“%s”已從黑名單中刪除!"
+    added: "單詞`%s`已被添加到黑名單中!"
+    removed: "單詞`%s`已從黑名單中刪除!"
     setupNeeded: "您需要先設置黑名單!"
-    notFound: "在黑名單中未找到單詞“%s”!"
+    notFound: "在黑名單中未找到單詞`%s`!"
   clear:
     noNumber: "%s 不是數字!"
     notInRange: "%s 不在 2 到 200 之間!"
@@ -322,11 +322,11 @@ message:
     unknownBot: "未知機器人!"
     success: "已成功從 %s 個用戶導入數據!"
     error:
-      unknown: "出現未知錯誤！ （%s）"
+      unknown: "出現未知錯誤！ (%s)"
       noData: "沒有找到數據!"
       visibility: "您無法從並非所有人都可見的機器人導入數據!"
   kick:
-    success: "成功踢掉%s！"
+    success: "成功踢掉%s!"
     hierarchySelfError: "你不能踢比你地位更高或同等的人!"
     hierarchyBotError: "我不能踢比我地位更高或同等的人!"
   mute:
@@ -335,16 +335,16 @@ message:
     hierarchySelfError: "您無法將角色比您更高或同等的人靜音!"
     hierarchyBotError: "我無法將角色比我更高或同等的人靜音!"
   prefix:
-    success: "已成功將前綴更改為“%s”!"
+    success: "已成功將前綴更改為`%s`!"
   setup:
     successImage: "成功設置新的連接圖像!"
     setupMenu: "您想查看哪個配置?"
     setupMenuPlaceholder: "選擇配置步驟!"
     steps:
-      auditLog: "您可以設置我們自己的審核日誌記錄，將所有信息提供給您想要的通道和 Webhook!\n但我們的試鏡與默認的試鏡不同，我們的試鏡讓您能夠設置要記錄的內容和不記錄的內容！\n我們還允許您記錄語音事件!"
-      welcome: "您可以設置我們自己的歡迎消息！\n您可以自己選擇歡迎頻道，甚至可以配置消息!"
+      auditLog: "您可以設置我們自己的審核日誌記錄,將所有信息提供給您想要的通道和 Webhook!\n但我們的試鏡與默認的試鏡不同,我們的試鏡讓您能夠設置要記錄的內容和不記錄的內容！\n我們還允許您記錄語音事件!"
+      welcome: "您可以設置我們自己的歡迎消息！\n您可以自己選擇歡迎頻道,甚至可以配置消息!"
       autoRole: "您可以建立我們自己的自動角色系統！\n您可以選擇用戶加入服務器後應獲得的角色!"
-      temporalVoice: "您可以設置自己的臨時語音頻道！\通過在特定頻道上設置臨時語音頻道，每當有人加入時，該頻道將用於創建新的語音頻道！"
+      temporalVoice: "您可以設置自己的臨時語音頻道！\通過在特定頻道上設置臨時語音頻道,每當有人加入時,該頻道將用於創建新的語音頻道！"
       lang: "您可以更改機器人的語言設置!"
   suggestion:
     suggestionMenu: "單擊下面的按鈕提出建議!"
@@ -355,7 +355,7 @@ message:
     notSetup: "看起來建議系統設置不正確!"
   unban:
     success: "已成功解封 %s!"
-    notFound: "未找到用戶“%s”!"
+    notFound: "未找到用戶`%s`!"
   unmute:
     success: "已成功取消 %s 靜音!"
     hierarchySelfError: "您無法取消角色比您更高或同等的人的靜音!"
@@ -369,7 +369,7 @@ message:
       disabled: "循環已被禁用!"
     lyrics:
       notFound: "找不到歌詞 %s."
-      foundUnlikely: "已找到 %s 的歌詞，但不太可能正確：%s"
+      foundUnlikely: "已找到 %s 的歌詞,,但不太可能正確：%s"
     stop: "歌曲已被停止！"
     pause: "音樂已暫停!"
     resume: "音樂已恢復!"
@@ -380,17 +380,17 @@ message:
     songQueue: "隊列包含以下歌曲：%s"
     volume:
       success: "成功將音量設置為 %s!"
-      default: "當前音量為 %s！"
+      default: "當前音量為 %s!"
     notFound: "找不到歌曲``%s``!"
     notFoundMultiple: "找不到``%s`` 歌曲!"
-    searchFailed: "搜索歌曲時出錯，請幾分鐘後重試!"
-    searchUrlFailed: "無法找到 URL 為“%s”的歌曲!"
-    songNext: "下一首歌！\n歌曲：``%s``"
+    searchFailed: "搜索歌曲時出錯,請幾分鐘後重試!"
+    searchUrlFailed: "無法找到 URL 為`%s`的歌曲!"
+    songNext: "下一首歌！\n歌曲:``%s``"
     songQueueReachedEnd: "沒有新歌了!"
     seek:
-      success: "正在尋找``%s``！"
+      success: "正在尋找``%s``!"
       failed: "你不能跳到超過歌曲長度的位置!"
-    failedPlaying: "播放時出錯：``%s``\n錯誤：%s"
+    failedPlaying: "播放時出錯：``%s``\n錯誤:%s"
     failedLoading: "加載歌曲時出錯：%s"
     queueAdded:
       default: "歌曲``%s`` 已添加到隊列中!"
@@ -410,10 +410,10 @@ message:
     minimalReachedHost: "已達到最低參與人數！\n您可以點擊第一條消息上的按鈕開始遊戲!"
     joined: "您現在已成為本遊戲的參與者！\請等待主持人開始遊戲!"
   blackJackGame:
-    welcome: "歡迎來到二十一點！您可以通過單擊下面的按鈕開始遊戲！\n在您開始遊戲之前，您需要其他人與您一起玩！\n他們需要使用 /game join %s 來加入遊戲！\n或者按 按鈕以下！"
+    welcome: "歡迎來到二十一點！您可以通過單擊下面的按鈕開始遊戲！\n在您開始遊戲之前,您需要其他人與您一起玩!\n他們需要使用 /game join %s 來加入遊戲!\n或者按 按鈕以下!"
     playerHand: "%s\n\n值: %s"
     end:
-      win: "遊戲已經結束！\n%s 獲勝，得分為 %s!"
+      win: "遊戲已經結束！\n%s 獲勝,得分為 %s!"
       draw: "比賽結束了！\n平局!"
     turn:
       player: "輪到你了!"
@@ -439,23 +439,23 @@ message:
       17: "今日運勢:《大吉》"
       18: "今日運勢:《小凶》"
       19: "今日運勢:《半吉》"
-      20: "看什麼運勢，我說比較准....我想想哦....今天您比較適合............女裝"
+      20: "看什麼運勢,我說比較准....我想想哦....今天您比較適合............女裝"
   brs:
     autoRole:
-      missingPermission: "Nee6-BRS（錯誤報告系統）\n我們檢測到我不允許 AutoRole 人員，因為我缺少“管理角色”權限！\n我需要此權限才能向用戶分配角色！\n該角色我不能給出的是``%s``!"
-      hierarchy: "Nee6-BRS（錯誤報告系統）\n我們檢測到我不允許AutoRole 人員，因為我的角色低於AutoRole-Role！\n請將我的角色移至AutoRole-Role 之上！\n導致問題的角色是 ` `%s``！"
-      deleted: "Nee6-BRS（錯誤報告系統）\n我們檢測到我無法自動角色，因為自動角色角色已被刪除！\n我們現在刪除了給定的角色!"
+      missingPermission: "Nee6-BRS(錯誤報告系統)\n我們檢測到我不允許 AutoRole 人員,因為我缺少`管理角色`權限！\n我需要此權限才能向用戶分配角色！\n該角色我不能給出的是``%s``!"
+      hierarchy: "Nee6-BRS(錯誤報告系統)\n我們檢測到我不允許AutoRole 人員,因為我的角色低於AutoRole-Role！\n請將我的角色移至AutoRole-Role 之上！\n導致問題的角色是 ` `%s``！"
+      deleted: "Nee6-BRS(錯誤報告系統)\n我們檢測到我無法自動角色,因為自動角色角色已被刪除！\n我們現在刪除了給定的角色!"
   ticket:
     created: "我們為您開了一張票口！檢查一下 %s"
     alreadyOpen: "您已經有一張開放的票口!"
     categoryNotFound: "未找到票口類別!"
     alreadyArchived: "票口已存檔!"
     close: "票口已關閉!"
-    setup: "您可以設置自己的工單系統！\n通過將特定通道設置為工單通道，Nee6 將為您創建的每個工單創建一個新的工單通道！\n工單關閉後，這些工單將被移至存檔類別!"
-    menuDescription: "通過單擊下面的按鈕，您可以打開票口!"
-    setupSuccess: "成功設置票口系統，太好了k!"
+    setup: "您可以設置自己的工單系統！\n通過將特定通道設置為工單通道,Nee6 將為您創建的每個工單創建一個新的工單通道！\n工單關閉後,這些工單將被移至存檔類別!"
+    menuDescription: "通過單擊下面的按鈕,您可以打開票口!"
+    setupSuccess: "成功設置票口系統,太好了k!"
     setupDescription: "請參考 /tickets 命令!"
-    deleted: "成功刪除票口頻道，幹得好!"
+    deleted: "成功刪除票口頻道,幹得好!"
   statistics:
     twitchSuccess: "成功設置 Twitch 統計數據的統計通道!"
     youtubeSuccess: "成功設置 YouTube 統計的統計頻道！"
@@ -463,28 +463,28 @@ message:
     redditSuccess: "成功設置 Reddit 統計的統計頻道！"
     twitterSuccess: "成功設置 Twitter 統計的靜態通道!"
     instagramSuccess: "成功設置 Instagram 統計的靜態通道!"
-    setup: "您可以設置自己的統計通道！\n通過設置統計通道，Nee6 將為您設置的每個統計類型創建新通道！\n如果您想刪除統計通道，只需將其刪除即可!"
+    setup: "您可以設置自己的統計通道！\n通過設置統計通道,只需將其刪除即可!"
     memberSuccess: "成功設置會員統計的統計通道!"
   temporalVoice:
-    setupSuccess: "成功設置臨時語音通道，幹得好!"
+    setupSuccess: "成功設置臨時語音通道,幹得好!"
     setupDescription: "您想使用哪個頻道作為臨時語音通道?"
-    deleted: "成功刪除了 Temporal-Voicechannel，幹得好!"
+    deleted: "成功刪除了 Temporal-Voicechannel,幹得好!"
   auditLog:
-    setupSuccess: "成功設置日誌頻道，幹得好!"
+    setupSuccess: "成功設置日誌頻道,幹得好!"
     setupDescription: "您想使用哪個頻道作為日誌頻道?"
-    deleted: "成功刪除日誌頻道，幹得好!"
+    deleted: "成功刪除日誌頻道,幹得好!"
   welcome:
     setupSuccess: "成功設置歡迎頻道!"
     setupDescription: "您想使用哪個頻道作為歡迎頻道?"
     imageRequired: "使用以下命令並將圖像作為附件：`{guild_prefix}setup joinImage`!"
-    deleted: “成功刪除歡迎頻道，幹得好!"
+    deleted: `成功刪除歡迎頻道,幹得好!"
   lang:
     setupSuccess: "已成功將語言更改為 %s!"
   recording:
     started: "我現在正在根據參與者的要求錄製此語音頻道!"
     startReason: "錄音開始於 %s"
     stopReason: "錄音停止了。"
-    stopped: "您的音頻已轉換，現在可供下載!"
+    stopped: "您的音頻已轉換,現在可供下載!"
     error: "轉換音頻時出現問題！\n原因: %s"
     inChat: "您的錄音應位於此消息下方!"
     notFound: "我們找不到所需的錄音!"
@@ -496,14 +496,14 @@ message:
     roleAdded: "您已收到角色 %s!"
     roleRemoved: "您已失去角色 %s!"
   musicQuiz:
-    welcome: "歡迎來到音樂測驗！您可以通過單擊下面的按鈕開始遊戲！\n在您開始遊戲之前，您需要其他人與您一起玩！\n他們需要使用 /game join %s 來加入遊戲！\n或者按 按鈕以下！"
-    foundTitle: "您已經猜到標題了，它是 %s！您獲得 1 分"
-    foundArtists: "你猜對了，作家是%s！您將獲得 2 分s"
-    foundFeature: "您已經猜到了一個特徵，那就是 %s！您將獲得 3 分"
+    welcome: "歡迎來到音樂測驗！您可以通過單擊下面的按鈕開始遊戲！\n在您開始遊戲之前,您需要其他人與您一起玩！\n他們需要使用 /game join %s 來加入遊戲！\n或者按 按鈕以下！"
+    foundTitle: "您已經猜到標題了,它是 %s！您獲得 1 分"
+    foundArtists: "你猜對了,作家是%s！您將獲得 2 分s"
+    foundFeature: "您已經猜到了一個特徵,那就是 %s！您將獲得 3 分"
     foundAll: "一切都已被猜到!"
     skipSong: "該歌曲已被跳過!"
-    finishedSong: "當前歌曲已結束，%s 由 %s 演唱！讓我們從下一個開始e!"
-    newSong: "猜猜標題（1 分）、作家（2 分）或特徵（3 分）"
+    finishedSong: "當前歌曲已結束,%s 由 %s 演唱！讓我們從下一個開始e!"
+    newSong: "猜猜標題(1 分)、作家( 分)或特徵(3 分)"
     points: "%s 到達 %s 點s"
   announcement:
     added: "已成功添加公告!"
@@ -512,7 +512,7 @@ message:
   news:
     enabled: "成功啟用新聞接收！"
     disabled: "成功禁止接收新聞!"
-    notice: "要禁用新聞接收，請使用 /news"
+    notice: "要禁用新聞接收,請使用 /news"
   stream-action:
     added: "我們成功添加了名為 **%s**的流操作"
     addedLine: "我們成功添加了名為 **%s**的流操作"
@@ -523,13 +523,13 @@ message:
     actionList: "這是所有操作的列表！\n```%s```"
     points: "這是所有頻道積分獎勵的列表！\n檢查積分.txt!"
     listener: "您已將偵聽器設置為 **%s**"
-    listenerArgument: "您已將偵聽器設置為 **%s**，ID 為 **%s**"
-    noTwitch: "要使用此功能，我們需要您授權您的 Twitch！查看 <%s> 來查找它!"
+    listenerArgument: "您已將偵聽器設置為 **%s**,ID 為 **%s**"
+    noTwitch: "要使用此功能,我們需要您授權您的 Twitch！查看 <%s> 來查找它!"
     notFound: "我們找不到名為 **%s**的 Stream-Action"
   levelRole:
     added: "我們成功添加了角色 **%s**和級別 **%s**的級別角色"
     removed: "我們成功刪除了角色 **%s**和級別 **%s**的級別角色"
-    list: "在上面消息的文件中，您可以找到所有級別角色的列表!"
+    list: "在上面消息的文件中,您可以找到所有級別角色的列表!"
   warn:
     punishment:
       created: "您已成功創建懲罰!"
@@ -586,7 +586,7 @@ command:
     missingCommand: "請提供命令!"
     error: "執行命令時出錯!"
     errorWithException: "執行命令時出錯！\n異常: %s"
-    internalError: "執行命令時出錯！\n如果這種情況繼續發生，請聯繫我的開發人員！\n開發者：Alice"
+    internalError: "執行命令時出錯！\n如果這種情況繼續發生,請聯繫我的開發人員！\n開發者：Alice"
     notFound: "找不到該命令"
     blocked: "該命令被阻止!"
     slashNotSupported: "該命令尚不支持斜杠命令!"
@@ -602,10 +602,10 @@ command:
     tiktokNotifier: "管理 您的 TikTok 通知程序!"
     rssNotifier: "管理 您的 RSS 提要通知程序!"
     anime: "在 kitsu.io 上搜索動漫!"
-    randomcat: "顯示隨機貓圖像，來自 thecatapi.com."
+    randomcat: "顯示隨機貓圖像,來自 thecatapi.com."
     cringe: "讓史瑞克告訴他們他們的訊息很尷尬吧!"
-    cringe_slash: "讓史萊克告訴他們，他們的信息不好笑!"
-    randomdog: "顯示隨機狗圖像，來自dog.ceo."
+    cringe_slash: "讓史萊克告訴他們,他們的信息不好笑!"
+    randomdog: "顯示隨機狗圖像,來自dog.ceo."
     funFact: "只是一些隨機的事實！"
     game: "訪問 Nee6 內部遊戲."
     hornyjail: "把某人關進監獄。"
@@ -618,11 +618,11 @@ command:
     ping: "Pong!"
     8ball: "讓 8Ball 決定您今日的運勢吧。"
     record: "錄製語音通道!"
-    shiba: "顯示隨機的 shiba 圖像，來自 shiba.online."
+    shiba: "顯示隨機的 shiba 圖像,來自 shiba.online."
     slap: "給某人一個巴掌!"
-    twitter: "創建一條看起來“逼真”的推文!"
+    twitter: "創建一條看起來`逼真`的推文!"
     waifu: "嗨！想看一些動漫女孩或動漫男孩嗎?"
-    addon: "僅供開發者使用的插件，用於重新加載或加載新的插件"
+    addon: "僅供開發者使用的插件,用於重新加載或加載新的插件"
     test: "測試命令"
     credits: "查看美麗可愛的 Nee6 團隊!"
     help: "顯示每個命令的列表!"
@@ -681,8 +681,8 @@ command:
 category:
   info: "用於收集信息或提供信息。"
   moderation: "可以幫助您管理用戶或防止服務器上違反規則的審核工具。"
-  music: "音樂實用程序，讓您通過音樂的力量與朋友一起享受樂趣!"
-  fun: "有趣的實用程序讓你有能力做愚蠢的事情，因為你可以!"
+  music: "音樂實用程序,讓您通過音樂的力量與朋友一起享受樂趣!"
+  fun: "有趣的實用程序讓你有能力做愚蠢的事情,因為你可以!"
   level: "允許您跟踪服務器進度的升級工具"
   community: "允許您與社區互動的社區工具"
   economy: "讓您管理資金的經濟工具。"
