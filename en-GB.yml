@@ -285,9 +285,9 @@ message:
     error: "搜索漫畫時發生錯誤!"
   ping: "Pong"
   record:
-    recordingStarted: "我现在正在录制语音频道！"
-    recordingStopped: "录制已停止！"
-    recordingError: "录制时发生错误！"
+    recordingStarted: "我正在錄製語音頻道！"
+    recordingStopped: "錄製已停止！"
+    recordingError: "錄製時發生錯誤！"
   slap: "%s 被 %s 扇了一巴掌!"
   addon:
     list: "插件列表:"
